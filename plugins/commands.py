@@ -15,13 +15,8 @@ async def start(client: Client, message: Message):
                     [
                         InlineKeyboardButton("HELP", callback_data="help_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
-                    ],
+                    
+                    ]
                 ]
             ),
             reply_to_message_id=message.message_id,
@@ -41,13 +36,8 @@ async def help(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="start_data"),
                         InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
-                    ],
+                    
+                    ]
                 ]
             ),
             reply_to_message_id=message.message_id,
@@ -67,13 +57,8 @@ async def about(client, message):
                     [
                         InlineKeyboardButton("BACK", callback_data="help_data"),
                         InlineKeyboardButton("START", callback_data="start_data"),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            "SOURCE CODE",
-                            url="https://github.com/TroJanzHEX/Image-Editor",
-                        )
-                    ],
+                    
+                    ]
                 ]
             ),
             reply_to_message_id=message.message_id,
