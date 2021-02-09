@@ -124,12 +124,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton("BACK", callback_data="start_data"),
                     InlineKeyboardButton("ABOUT", callback_data="about_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJaHEX/Iage-Etor"
-                    )
-                ],
+                
+                ]
             ]
         )
         await query.message.edit_text(
@@ -141,12 +137,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
                     InlineKeyboardButton("START", callback_data="start_data"),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJzHEX/Iage-Edtor"
-                    )
-                ],
+                
+                ]
             ]
         )
         await query.message.edit_text(
