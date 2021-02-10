@@ -15,7 +15,7 @@ For more click help....</b>"""
 
 
 """
-    ABOUT_MSG = """❤️<b>My Name : Image Editor</b>
+    ABOUT_MSG = """❤️<b>My Name : Keys Image Editor ⚡</b>
 
 ⚜️<b>Language :</b> <code>Python3</code>
 
